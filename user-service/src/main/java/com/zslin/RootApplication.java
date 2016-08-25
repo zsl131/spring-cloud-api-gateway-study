@@ -1,0 +1,17 @@
+package com.zslin;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+/**
+ * Created by zsl-pc on 2016/8/24.
+ */
+@SpringBootApplication
+@EnableDiscoveryClient
+public class RootApplication {
+
+    public static void main(String [] args) {
+        SpringApplication.run(RootApplication.class, args);
+    }
+}
